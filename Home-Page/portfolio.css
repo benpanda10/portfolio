@@ -117,8 +117,31 @@ h6 {
 
 /* About Me Section */
 
-#aboutme {
-    padding: 10px;
+#aboutme { 
+    width: 100%;
+    padding: 3em;
+    background-color: #eeeeee;
+}
+
+.aboutme-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#aboutme p {
+    width: 55%;
+    line-height: 2em;
+    word-spacing: 1px;
+    padding-top: 1em;
+}
+
+.aboutme-pic {
+    width: 400px;
+    height: 400px;
+    background-color: #2e75a4;
+    border-radius: 100%;
+    
 }
 
 /* Footer */
